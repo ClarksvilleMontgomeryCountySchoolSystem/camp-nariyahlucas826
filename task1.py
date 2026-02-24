@@ -28,18 +28,18 @@ def main():
     print(f"Phone Number: (phone)")
 
     #Variable: street Prompt: Street Address:
-    print(f"Street Address: ")\
+street = input("Street Address:")
 
     #Variable: city Prompt: City:
-    print(f"City: ")
+city = input(f"City: ")
 
     #Variable: state Prompt: State Abbreviation:
-    print(f"State Abbreviation: ")
+state = input(f"State Abbreviation: ")
 
     #Variable: zip Prompt: Zip Code:
-    print(f"Zip Code: ")
+zip = input(f"Zip Code: ")
 
-    print(f"Address:\n{street}\n{city}, {state} {zip}")
+print(f"Address:{street}{city}, {state} {zip}")
 
 if __name__ == "__main__":
     main()
