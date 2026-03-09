@@ -13,10 +13,10 @@ from data import first, last, birth, days, p_first, p_last, phone, street, city,
 
 
 # birth
-
+birth = int(birth)
 
 # days
-
+days = int(days)
 
 # p_first
 
@@ -37,4 +37,4 @@ from data import first, last, birth, days, p_first, p_last, phone, street, city,
 
 
 # zip_code
-
+zip_code = int(zip_code)
